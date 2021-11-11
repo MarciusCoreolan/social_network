@@ -1,0 +1,15 @@
+.messages_panel {
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .messages_panel{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .messages_panel{
+    width: 95%;
+  }
+}

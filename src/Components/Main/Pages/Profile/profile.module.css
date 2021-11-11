@@ -1,0 +1,10 @@
+.welcome,
+.users {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+.users {
+  padding-top: 10px;
+}

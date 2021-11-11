@@ -1,0 +1,43 @@
+input {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.error_reg {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 32%;
+  color: #ff9595;
+  text-decoration: underline;
+}
+.registration_button button {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.logIn button{
+  font-size: 20px;
+  padding: 0;
+  margin: 20px 0;
+}
+/*============================media*/
+@media screen and (max-width: 1220px) {
+  .registration_button button {
+    font-size: 15px;
+  }
+  .error_reg {
+    bottom: 30%;
+  }
+}
+@media screen and (max-width: 361px) {
+  .registration_button button {
+    margin-top: 55px;
+    font-size: 10px;
+  }
+  .error_reg {
+    bottom: 27%;
+  }
+  .logIn button{
+    font-size: 10px;
+    margin: 0;
+  }
+}

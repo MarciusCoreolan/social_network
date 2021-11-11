@@ -1,0 +1,37 @@
+.input {
+  font-size: 20px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: 'Russo One', sans-serif;
+}
+.button_white,
+.button,
+.button_nav {
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: inherit;
+  text-align: center;
+}
+.button_nav {
+  font-size: 40px;
+  border: none;
+}
+.button {
+  color: #393939;
+  border: 1px solid #393939;
+}
+.button:hover {
+  box-shadow: inset 0 0 6px rgb(57, 57, 57);
+}
+.button_white:hover {
+  box-shadow: inset 0 0 6px rgb(255, 255, 255);
+}
+.button_nav:hover {
+  text-shadow: 0 0 6px rgb(255, 255, 255);
+}

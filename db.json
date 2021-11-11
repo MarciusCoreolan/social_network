@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "avatar": "https://yt3.ggpht.com/ytc/AAUvwniqvjXAhxhnHxoO4F82hlTiQouz5b76_yPllUeayw=s900-c-k-c0x00ffffff-no-rj",
+      "userName": "Admin",
+      "login": "admin",
+      "password": "1",
+      "token": "asfdskajdnfbsadfbpsadfn",
+      "email": "User_Email@Here.com",
+      "moderate": true
+    },
+    {
+      "id": 2,
+      "avatar": "https://yt3.ggpht.com/ytc/AAUvwniqvjXAhxhnHxoO4F82hlTiQouz5b76_yPllUeayw=s900-c-k-c0x00ffffff-no-rj",
+      "userName": "User1",
+      "login": "user1",
+      "password": "1",
+      "token": ";kjfngpaosfbgpasogbnassb",
+      "email": "User_Email@Here.com",
+      "moderate": false
+    },
+    {
+      "id": 3,
+      "avatar": "https://yt3.ggpht.com/ytc/AAUvwniqvjXAhxhnHxoO4F82hlTiQouz5b76_yPllUeayw=s900-c-k-c0x00ffffff-no-rj",
+      "userName": "User2",
+      "login": "user2",
+      "password": "1",
+      "token": "lsdkfngaksngapsngsnfgkaks",
+      "email": "User_Email@Here.com",
+      "moderate": false
+    }
+  ],
+  "dialogs": [
+    {
+      "userId": 2,
+      "userOpponentName": "Admin",
+      "userOpponentId": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "userOpponentName": "User1",
+      "userOpponentId": 2,
+      "id": 2
+    },
+    {
+      "dialog": [],
+      "id": 3
+    },
+    {
+      "dialog": [],
+      "id": 4
+    },
+    {
+      "dialog": [],
+      "id": 5
+    },
+    {
+      "dialog": [],
+      "id": 6
+    },
+    {
+      "dialog": [],
+      "id": 7
+    },
+    {
+      "dialog": [],
+      "id": 8
+    },
+    {
+      "dialog": [],
+      "id": 9
+    },
+    {
+      "dialog": [],
+      "id": 10
+    },
+    {
+      "dialog": [],
+      "id": 11
+    },
+    {
+      "dialog": [],
+      "id": 12
+    },
+    {
+      "dialog": [],
+      "id": 13
+    },
+    {
+      "dialog": [],
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "userOpponentName": "User2",
+      "userOpponentId": 3,
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "userOpponentName": "Admin",
+      "userOpponentId": 1,
+      "id": 16
+    }
+  ],
+  "messages": [
+    {
+      "userName": "Admin",
+      "opponentName": "User1",
+      "message": "dsfdfsdf",
+      "id": 1
+    },
+    {
+      "userName": "User1",
+      "opponentName": "Admin",
+      "message": "",
+      "id": 2
+    },
+    {
+      "userName": "Admin",
+      "opponentName": "User1",
+      "message": "sdfsdfsdfsf",
+      "id": 3
+    },
+    {
+      "userName": "Admin",
+      "opponentName": "User2",
+      "message": "sdfsdfsdfsdf",
+      "id": 4
+    },
+    {
+      "userName": "Admin",
+      "opponentName": "User2",
+      "message": "sdfsdfsdfsf",
+      "id": 5
+    },
+    {
+      "userName": "User2",
+      "opponentName": "Admin",
+      "message": "sdfsdfsf",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "title": "Заголовок",
+      "text": "очень большой текст и очень злобный, с выражениями, деепричастными оборотами и матом",
+      "author": "Admin",
+      "userId": 1,
+      "approved": true,
+      "id": 1
+    },
+    {
+      "title": "ответ админу",
+      "text": "ответ админу с просьбой не выражаться и вести себя культурнее",
+      "author": "User1",
+      "userId": 2,
+      "approved": true,
+      "id": 2
+    },
+    {
+      "title": "рассказ",
+      "text": "большой рассказ о том как что то где то произошло в такое то время в таком то месте по такой то причине ",
+      "author": "User1",
+      "userId": 2,
+      "approved": true,
+      "id": 3
+    },
+    {
+      "title": "поддержка",
+      "text": "выражение согласия с user1 в том что админу нужно дать огнетушитель и остыть",
+      "author": "User2",
+      "userId": 3,
+      "approved": true,
+      "id": 4
+    },
+    {
+      "title": "вопросы",
+      "text": "вопросы по рассказу пользователя user1 уточняющие где и когда произошли те самые события ",
+      "author": "User2",
+      "userId": 3,
+      "approved": true,
+      "id": 5
+    },
+    {
+      "title": "ddddd",
+      "text": "aaaaaaaaaaaaaa",
+      "author": "Admin",
+      "userId": 1,
+      "approved": false,
+      "id": 6
+    }
+  ]
+}

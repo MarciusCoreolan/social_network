@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-size: 17px;
+  font-family: 'Russo One', sans-serif;
+  background-color: #252525;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Russo One', sans-serif;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Russo One', sans-serif;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.pages {
+  padding: 70px 0;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

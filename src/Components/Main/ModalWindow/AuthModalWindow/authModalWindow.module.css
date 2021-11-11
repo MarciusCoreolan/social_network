@@ -1,0 +1,49 @@
+.authModal{
+  padding: 40px 0;
+}
+input {
+  margin-bottom: 20px;
+  width: 80%;
+}
+.logIn button {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.auth_error {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  left: 10%;
+  color: #ff9595;
+  text-decoration: underline;
+}
+.registration_button button {
+  font-size: 20px;
+  padding: 0;
+  margin: 20px 0;
+}
+/*====================================media*/
+@media screen and (max-width: 1220px) {
+  .logIn button {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logIn button {
+    font-size: 10px;
+    margin: 17% 0 5px;
+  }
+  .registration_button button {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .logIn button {
+    margin-top: 55px;
+    font-size: 10px;
+  }
+  .registration_button button {
+    font-size: 10px;
+    margin: 0;
+  }
+}
