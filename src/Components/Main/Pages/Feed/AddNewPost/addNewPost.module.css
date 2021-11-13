@@ -1,0 +1,15 @@
+.add_new_post {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 5px solid #ffffff;
+    box-shadow: inset 0 0 15px 10px rgba(255, 0, 0, 0.3);
+}
+.add_new_post input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+}
