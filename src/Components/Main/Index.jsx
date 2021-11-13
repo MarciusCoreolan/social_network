@@ -4,7 +4,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import Profile from './Pages/Profile/Index';
 import Feed from './Pages/Feed/Index';
 import Messenger from './Pages/Messenger/Index';
-import Users from './Pages/Users/Index';
+import Users from './Pages/Users/user';
 import Messages from './Pages/Messenger/Messages/Index';
 import { useSelector } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';

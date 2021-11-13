@@ -1,0 +1,10 @@
+.users_page {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 800px) {
+    .users_page{
+        flex-wrap: wrap;
+    }
+}
