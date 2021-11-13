@@ -25,6 +25,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "dev": "nodemon server.js",
+    "watch": "npx json-server --watch db.json --port 3001",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettify": "prettier --write ./src"

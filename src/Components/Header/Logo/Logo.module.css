@@ -1,15 +1,15 @@
 .logo {
-    display: flex;
-    align-items: center;
-    font-family: 'Anton', sans-serif;
-    color: white;
+  display: flex;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  color: white;
 }
 .logo_image {
-    font-size: 45px;
-    margin: 10px 0;
+  font-size: 45px;
+  margin: 10px 0;
 }
 @media screen and (max-width: 500px) {
-    .logo_image{
-        font-size: 25px;
-    }
+  .logo_image {
+    font-size: 25px;
+  }
 }

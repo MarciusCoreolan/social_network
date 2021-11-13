@@ -14,7 +14,7 @@ input {
   margin-top: 40px;
   font-size: 20px;
 }
-.logIn button{
+.logIn button {
   font-size: 20px;
   padding: 0;
   margin: 20px 0;
@@ -36,7 +36,7 @@ input {
   .error_reg {
     bottom: 27%;
   }
-  .logIn button{
+  .logIn button {
     font-size: 10px;
     margin: 0;
   }

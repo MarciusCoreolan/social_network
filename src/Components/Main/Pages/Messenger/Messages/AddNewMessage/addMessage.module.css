@@ -27,12 +27,12 @@
 }
 
 @media screen and (max-width: 700px) {
-  .add_message_panel_container{
+  .add_message_panel_container {
     width: 100%;
   }
 }
 @media screen and (max-width: 450px) {
-  .add_message_panel{
-    padding: 10px 5px ;
+  .add_message_panel {
+    padding: 10px 5px;
   }
 }
