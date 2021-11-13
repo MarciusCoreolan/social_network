@@ -1,0 +1,21 @@
+.nav_panel_items {
+    display: flex;
+}
+.nav_item {
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+.nav_item_text {
+    font-size: 12px;
+    margin-top: -12px;
+}
+@media screen and (max-width: 500px) {
+    .nav_item button{
+        font-size: 25px;
+        padding: 0;
+    }
+    .nav_item_text {
+        display: none;
+    }
+}
