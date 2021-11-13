@@ -2,13 +2,13 @@ import React from 'react';
 import s from './main.module.css';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import Profile from './Pages/Profile/Index';
-import Feed from './Pages/Feed/Index';
+import Feed from './Pages/Feed/index';
 import Messenger from './Pages/Messenger/Index';
 import Users from './Pages/Users/user';
 import Messages from './Pages/Messenger/Messages/Index';
 import { useSelector } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
-import ModalWindow from "./ModalWindow/ModalWindow";
+import ModalWindow from './ModalWindow/ModalWindow';
 
 function Main(props) {
   const token = useSelector((state) => state.user.item.token);
@@ -53,8 +53,7 @@ function Main(props) {
     );
   }
 
-
-    return (
+  return (
     <div>
       {routes}
 
@@ -69,7 +68,7 @@ function Main(props) {
         }}
         unmountOnExit
       >
-        <ModalWindow/>
+        <ModalWindow />
       </CSSTransition>
     </div>
   );

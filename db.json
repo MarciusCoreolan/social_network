@@ -29,6 +29,13 @@
       "token": "lsdkfngaksngapsngsnfgkaks",
       "email": "User_Email@Here.com",
       "moderate": false
+    },
+    {
+      "userName": "sss",
+      "login": "sss",
+      "password": "sss",
+      "email": "ssss@mail.ru",
+      "id": 4
     }
   ],
   "dialogs": [
@@ -103,6 +110,10 @@
       "userOpponentName": "Admin",
       "userOpponentId": 1,
       "id": 16
+    },
+    {
+      "dialog": [],
+      "id": 17
     }
   ],
   "messages": [
@@ -191,6 +202,14 @@
       "userId": 1,
       "approved": false,
       "id": 6
+    },
+    {
+      "title": "вопрос ",
+      "text": "какие стили должны быть тут?",
+      "author": "sss",
+      "userId": 4,
+      "approved": false,
+      "id": 7
     }
   ]
 }

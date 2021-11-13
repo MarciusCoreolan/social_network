@@ -1,22 +1,22 @@
 .feed_page {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 /*анимация открытия и закрытия окна добавления поста ====================*/
 .addNewPost_enter {
-    opacity: 0;
-    transform: translateY(-700px);
+  opacity: 0;
+  transform: translateY(-700px);
 }
 .addNewPost_enter_active {
-    opacity: 1;
-    transform: translateX(0);
-    transition: opacity 300ms, transform 300ms;
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
 }
 .addNewPost_exit {
-    opacity: 1;
+  opacity: 1;
 }
 .addNewPost_exit_active {
-    opacity: 0;
-    transform: translateY(-700px);
-    transition: opacity 300ms, transform 300ms;
+  opacity: 0;
+  transform: translateY(-700px);
+  transition: opacity 300ms, transform 300ms;
 }
 /*=======================================================================*/

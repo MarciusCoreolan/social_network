@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 import s from './messages.module.css';
-import {useDispatch, useSelector} from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Message from './Message/Index';
 import AddNewMessage from './AddNewMessage/Index';
 import ReactLoading from 'react-loading';
-import {getMessages} from "../../../../../Redux/Ducks/messagesReducer";
-import {useParams} from "react-router-dom";
+import { getMessages } from '../../../../../Redux/Ducks/messagesReducer';
+import { useParams } from 'react-router-dom';
 
 function Messages(props) {
   const dispatch = useDispatch();
-  const params = useParams()
+  const params = useParams();
   const messages = useSelector((state) => state.messages.item); //полученные при клике на диалог сообщения с сервера приходят сюда
   const userName = useSelector((state) => state.user.item.userName);
   const messagesLoading = useSelector(
@@ -19,7 +19,7 @@ function Messages(props) {
   useEffect(() => {
     dispatch(getMessages(userName, params.name)); //отправляет запрос на сервер для получения сообщений определенного диалога
     window.scrollTo(0, 999999999999999);
-  },[dispatch, params.name, userName]);
+  }, [dispatch, params.name, userName]);
 
   return (
     <div className="pages wrapper">
