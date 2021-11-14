@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './user.module.css';
-import Button from '../../../../Component/Button';
+import Button from "../../../../Component/Button";
 
 function User(props) {
   return (

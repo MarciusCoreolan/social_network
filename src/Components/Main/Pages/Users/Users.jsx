@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import s from './users.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-import User from './User/Index';
+import User from './user/User';
 import { useHistory } from 'react-router-dom';
 import ReactLoading from 'react-loading';
 import { getMessages } from '../../../../Redux/Ducks/messagesReducer';
