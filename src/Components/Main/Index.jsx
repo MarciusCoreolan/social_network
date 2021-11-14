@@ -8,7 +8,7 @@ import Messages from './Pages/Messenger/Messages/Index';
 import { useSelector } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
 import ModalWindow from './ModalWindow/ModalWindow';
-import Users from "./Pages/Users/Users";
+import Users from './Pages/Users/Users';
 
 function Main(props) {
   const token = useSelector((state) => state.user.item.token);
