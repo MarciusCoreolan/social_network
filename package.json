@@ -2,7 +2,9 @@
   "name": "news-feed",
   "version": "0.1.0",
   "private": true,
-
+  "engines": {
+    "node": "v17.3.0"
+  },
   "proxy": "http://localhost:3333",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
