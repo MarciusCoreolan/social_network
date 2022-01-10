@@ -83,6 +83,6 @@ server.use((req, res, next) =>{ //Регистрация новго пользо
 })
 
 server.use(router);
-server.listen(process.env.PORT || 3001, () => {
+server.listen(process.env.PORT || 3333, () => {
   console.log("JSON Server is running");
 });
