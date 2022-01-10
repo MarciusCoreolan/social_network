@@ -27,8 +27,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "ng build",
     "dev": "nodemon server.js",
+    "heroku-postbuild": "ng build --prod",
     "watch": "npx json-server --watch db.json --port 3001",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
